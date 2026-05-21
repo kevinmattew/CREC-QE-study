@@ -1,18 +1,30 @@
 // ==UserScript==
-// @name         中国中铁安全生产监督管理系统挂课助手 v5.20
-// @namespace    http://tampermonkey.net/
-// @version      5.20.0
-// @description  全自动刷课助手 - 增加详细调试信息
-// @author       saiken
-// @match        https://psec.crec.cn/*
-// @updateURL    https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
-// @downloadURL  https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @grant        GM_notification
-// @grant        unsafeWindow
+// @name            CREC-QE-Study v5.20
+// @description     中国中铁安全生产监督管理系统挂课助手
+// @updateURL       https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
+// @downloadURL     https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
+// @version         5.20.0
+// @author          saiken
+// @license         MIT
+// @match           https://psec.crec.cn/*
+// @run-at          document-start
+// @grant           unsafeWindow
+// @grant           GM_getValue
+// @grant           GM_setValue
+// @grant           GM_deleteValue
+// @grant           GM_info
+// @grant           GM_xmlhttpRequest
+// @grant           GM_registerMenuCommand
+// @grant           GM_unregisterMenuCommand
+// @connect         raw.githubusercontent.com
+// @connect         github.com
+// @connect         cn.bing.com
+// @connect         www.bing.com
+// @connect         translate.google.cn
+// @connect         translate.google.com
+// @connect         localhost
+// @connect         *
 // ==/UserScript==
-
 (function() {
     'use strict';
 
