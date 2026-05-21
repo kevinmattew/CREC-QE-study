@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name            CREC-QE-Study v5.20
 // @description     中国中铁安全生产监督管理系统挂课助手
-// @updateURL       https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
-// @downloadURL     https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
+// @updateURL       https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.user.js
+// @downloadURL     https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.user.js
 // @version         5.20.0
 // @author          saiken
 // @license         MIT
