@@ -1,15 +1,16 @@
 // ==UserScript==
 // @name         中国中铁安全生产监督管理系统挂课助手 v5.20
-// @updateURL    https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/refs/heads/main/crecqestudy.js
-// @downloadURL  https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/refs/heads/main/crecqestudy.js
 // @namespace    http://tampermonkey.net/
 // @version      5.20.0
 // @description  全自动刷课助手 - 增加详细调试信息
 // @author       saiken
 // @match        https://psec.crec.cn/*
+// @updateURL    https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
+// @downloadURL  https://raw.githubusercontent.com/kevinmattew/CREC-QE-study/main/crecqestudy.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_notification
+// @grant        unsafeWindow
 // ==/UserScript==
 
 (function() {
